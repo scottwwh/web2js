@@ -7,6 +7,6 @@
   "pgfplotsmeshplothandler.code.tex",
   "pgfplotsarray.code.tex",
   "tikzlibrarypgfplots.fillbetween.code.tex",
-  "tikzlibrarypgfplots.decorations.softclip.code.tex",
+  "tikzlibrarydecorations.softclip.code.tex",
   "pgfplotsversion.tex"
 ]
