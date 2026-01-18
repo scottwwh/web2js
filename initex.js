@@ -16,8 +16,11 @@ library.setWasmExports(wasm.exports);
 wasm.exports.main();
 
 library.setMemory(memory.buffer);
-library.setInput(`\n&latex \\documentclass[margin=0pt]{standalone}\\def\\pgfsysdriver{pgfsys-ximera.def}
-\\usepackage[svgnames]{xcolor}\\usepackage{tikz}\n\n`,
+library.setInput(`\n&latex \\documentclass[margin=0pt]{standalone}\\def\\pgfsysdriver{pgfsys-ximera.def} `
+	+ `\\usepackage[svgnames]{xcolor}`
+	+ "\\usepackage{pgfplots} "				// Testing
+    + "\\usepgfplotslibrary{fillbetween} "	// Testing
+	+ `\\usepackage{tikz}\n\n`,
 	function() {
 		library.tex_final_end();
 		var buffer = new Uint8Array(memory.buffer);
