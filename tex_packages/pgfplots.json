@@ -8,5 +8,6 @@
   "pgfplotsarray.code.tex",
   "tikzlibrarypgfplots.fillbetween.code.tex",
   "tikzlibrarydecorations.softclip.code.tex",
+  "tikzlibrarypgfplots.decorations.softclip.code.tex",
   "pgfplotsversion.tex"
 ]
