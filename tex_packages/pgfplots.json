@@ -1,1 +1,12 @@
-["pgfplots.sty", "pgfplots.code.tex", "tikzlibrarypgfplots.fillbetween.code.tex"]
+[
+  "pgfplots.sty",
+  "pgfplots.code.tex",
+  "pgfplotscore.code.tex",
+  "pgfplotsutil.code.tex",
+  "pgfplotsbinary.code.tex",
+  "pgfplotsmeshplothandler.code.tex",
+  "pgfplotsarray.code.tex",
+  "tikzlibrarypgfplots.fillbetween.code.tex",
+  "pgflibrarypgfplots.decorations.softclip.code.tex",
+  "pgfplotsversion.tex"
+]
